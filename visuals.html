@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Visualizations</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body id="page-visuals">
+    
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="students.html">Student List</a>
+        <a href="analysis.html">Analysis (OOP)</a>
+        <a href="visuals.html">Visuals</a>
+        <a href="map.html">Map</a>
+    </nav>
+
+    <div class="container">
+        <h2>Grade Visualization</h2>
+        <label for="subjectSelect">Select Subject:</label>
+        <select id="subjectSelect">
+            <option value="math">Math</option>
+            <option value="science">Science</option>
+            <option value="english">English</option>
+        </select>
+
+        <div class="chart-container">
+            <canvas id="gradesChart"></canvas>
+        </div>
+    </div>
+
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

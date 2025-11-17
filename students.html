@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student List</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="page-list">
+    
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="students.html">Student List</a>
+        <a href="analysis.html">Analysis (OOP)</a>
+        <a href="visuals.html">Visuals</a>
+        <a href="map.html">Map</a>
+    </nav>
+
+    <div class="container">
+        <h2>Student Directory</h2>
+        <p>Click the button to fetch student records from the JSON source.</p>
+        <button id="loadDataBtn">Load Data</button>
+
+        <table id="studentTable">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>School</th>
+                    <th>Scores Overview</th>
+                </tr>
+            </thead>
+            <tbody>
+                </tbody>
+        </table>
+    </div>
+
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

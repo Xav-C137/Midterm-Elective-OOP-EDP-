@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>School Map</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+</head>
+<body id="page-map">
+    
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="students.html">Student List</a>
+        <a href="analysis.html">Analysis (OOP)</a>
+        <a href="visuals.html">Visuals</a>
+        <a href="map.html">Map</a>
+    </nav>
+
+    <div class="container">
+        <h2>Student Locations</h2>
+        <p>Interactive map showing student/school locations.</p>
+        <div id="schoolMap"></div>
+    </div>
+
+    <script src="js/data.js"></script>
+    <script src="js/Student.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
