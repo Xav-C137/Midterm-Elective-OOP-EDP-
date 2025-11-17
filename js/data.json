@@ -1,0 +1,58 @@
+[
+    {
+        "id": 101,
+        "name": "Earl Luchin",
+        "school": "Manolo Fortich High School",
+        "scores": { "math": 67, "science": 92, "english": 88 },
+        "location": [8.369257, 124.862736]
+    },
+    {
+        "id": 102,
+        "name": "Mark Ohwen Tudtud",
+        "school": "University of Science and Technology of Southern Philippines",
+        "scores": { "math": 98, "science": 88, "english": 88 },
+        "location": [8.486730, 124.656276]
+    },
+    {
+        "id": 103,
+        "name": "Atasha Alecer",
+        "school": "Xavier University",
+        "scores": { "math": 95, "science": 98, "english": 92 },
+        "location": [8.449166, 124.620554]
+    },
+    {
+        "id": 104,
+        "name": "TLPH Karltzy",
+        "school": "Misamis Oriental General Comprehensive High School ",
+        "scores": { "math": 21, "science": 69, "english": 100 },
+        "location": [8.481772, 124.646727]
+    },
+    {
+        "id": 105,
+        "name": "Christian Batumbakal",
+        "school": "Corpus Christian School",
+        "scores": { "math": 60, "science": 55, "english": 62 },
+        "location": [8.442683, 124.620328]
+    },
+    {
+        "id": 106,
+        "name": "Saki T. Teco",
+        "school": "Cagayan de Oro College",
+        "scores": { "math": 30, "science": 55, "english": 78 },
+        "location": [8.482443, 124.636280]
+    },
+    {
+        "id": 107,
+        "name": "Albirt Aynstayn",
+        "school": "Alae National High School",
+        "scores": { "math": 100, "science": 1, "english": 10 },
+        "location": [8.421647, 124.810902]
+    },
+    {
+        "id": 108,
+        "name": "Bongbong Marcause",
+        "school": "Holy Cross High School",
+        "scores": { "math": 100, "science": 100, "english": 100 },
+        "location": [8.321263, 124.812058]
+    }
+]

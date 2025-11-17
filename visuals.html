@@ -9,23 +9,28 @@
 <body id="page-visuals">
     
     <nav>
-        <a href="index.html">Home</a>
-        <a href="students.html">Student List</a>
-        <a href="analysis.html">Analysis (OOP)</a>
-        <a href="visuals.html">Visuals</a>
-        <a href="map.html">Map</a>
+        <div class="nav-brand">StudentMonitor</div>
+        <div class="nav-links">
+            <a href="index.html">Overview</a>
+            <a href="students.html">Students</a>
+            <a href="analysis.html">Analysis</a>
+            <a href="visuals.html">Visuals</a>
+            <a href="map.html">Map</a>
+        </div>
     </nav>
 
     <div class="container">
-        <h2>Grade Visualization</h2>
-        <label for="subjectSelect">Select Subject:</label>
-        <select id="subjectSelect">
-            <option value="math">Math</option>
-            <option value="science">Science</option>
-            <option value="english">English</option>
-        </select>
+        <h2>Performance Charts</h2>
+        <div style="background: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); margin-bottom: 20px;">
+            <label for="subjectSelect" style="font-weight:600; margin-right: 10px;">Analysis Subject:</label>
+            <select id="subjectSelect" style="margin-bottom: 0; width: auto;">
+                <option value="math">Mathematics</option>
+                <option value="science">Science</option>
+                <option value="english">English</option>
+            </select>
+        </div>
 
-        <div class="chart-container">
+        <div class="chart-wrapper" style="height: 500px;">
             <canvas id="gradesChart"></canvas>
         </div>
     </div>

@@ -2,23 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Student List</title>
+    <title>Students</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body id="page-list">
     
     <nav>
-        <a href="index.html">Home</a>
-        <a href="students.html">Student List</a>
-        <a href="analysis.html">Analysis (OOP)</a>
-        <a href="visuals.html">Visuals</a>
-        <a href="map.html">Map</a>
+        <div class="nav-brand">StudentMonitor</div>
+        <div class="nav-links">
+            <a href="index.html">Overview</a>
+            <a href="students.html">Students</a>
+            <a href="analysis.html">Analysis</a>
+            <a href="visuals.html">Visuals</a>
+            <a href="map.html">Map</a>
+        </div>
     </nav>
 
     <div class="container">
-        <h2>Student Directory</h2>
-        <p>Click the button to fetch student records from the JSON source.</p>
-        <button id="loadDataBtn">Load Data</button>
+        <div style="display:flex; justify-content:space-between; align-items:center;">
+            <h2>Student Directory</h2>
+            <input type="text" id="searchInput" placeholder="Search by Name or School...">
+        </div>
 
         <table id="studentTable">
             <thead>
@@ -26,7 +30,7 @@
                     <th>ID</th>
                     <th>Name</th>
                     <th>School</th>
-                    <th>Scores Overview</th>
+                    <th>Performance</th>
                 </tr>
             </thead>
             <tbody>
